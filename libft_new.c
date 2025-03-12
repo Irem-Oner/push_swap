@@ -97,6 +97,6 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 
 void	write_error(void)
 {
-	ft_printf("Error\n", 2);
+	ft_printf("Error\n");
 	exit(1);
 }
